@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tron</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="game.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col align-self-center">
+				<h2>Tron: Motos</h2>
+				<p id="message">Empezamos</p>
+				<button id="iniciar">Iniciar juego</button>
+				<p><span class="azul">Moto azul:</span> Teclas
+					<span class="tecla mono">A</span>
+					<span class="tecla mono">W</span>
+					<span class="tecla mono">S</span>
+					<span class="tecla mono">D</span>
+				</p>
+				<p><span class="rojo">Moto roja:</span> Teclas 
+					<span class="material-icons tecla">
+						arrow_back
+					</span>
+					<span class="material-icons tecla">
+						arrow_upward
+					</span>
+					<span class="material-icons tecla">
+						arrow_downward
+					</span>
+					<span class="material-icons tecla">
+						arrow_forward
+					</span>
+				</p>
+				<audio src="audio/tron.mp3"></audio>
+			</div>
+			<div class="col">
+				<canvas id="tron" width="800" height="600" style="background-color: black;"></canvas>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

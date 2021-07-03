@@ -1,0 +1,34 @@
+body {
+	background-color: rgb(43, 42, 42);
+	color: white;
+	margin:auto;
+}
+
+.container{
+	margin-top: 2rem;
+}
+#iniciar{
+	margin: 2rem auto;
+}
+
+.rojo{
+	color: red;
+}
+
+.azul{
+	color: blue;
+}
+
+span{
+	display: inline-block;
+	
+}
+.tecla{
+	
+	border: 1px solid white;
+	padding: 5px;
+}
+.mono{
+	font-family: monospace;
+	font-size: 20px;
+}
